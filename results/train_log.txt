@@ -1,0 +1,87 @@
+2026-10-30 06:58:12.607553: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1793361492.629195     642 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1793361492.635196     642 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1793361492.647247     642 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1793361492.647290     642 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1793361492.647291     642 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1793361492.647293     642 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2026-10-30 06:58:18.302325: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Model: "mlp_digitos"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ aplanado_784 (Flatten)          │ (None, 784)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ oculta_1 (Dense)                │ (None, 128)            │       100,480 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout (Dropout)               │ (None, 128)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ oculta_2 (Dense)                │ (None, 64)             │         8,256 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ salida_softmax (Dense)          │ (None, 10)             │           650 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 109,386 (427.29 KB)
+ Trainable params: 109,386 (427.29 KB)
+ Non-trainable params: 0 (0.00 B)
+
+Epoch 1/50
+2026-10-30 06:58:21.092145: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+422/422 - 4s - 10ms/step - accuracy: 0.8840 - loss: 0.3952 - val_accuracy: 0.9445 - val_loss: 0.1822
+Epoch 2/50
+422/422 - 2s - 5ms/step - accuracy: 0.9484 - loss: 0.1757 - val_accuracy: 0.9610 - val_loss: 0.1343
+Epoch 3/50
+422/422 - 2s - 4ms/step - accuracy: 0.9606 - loss: 0.1312 - val_accuracy: 0.9670 - val_loss: 0.1094
+Epoch 4/50
+422/422 - 2s - 4ms/step - accuracy: 0.9666 - loss: 0.1069 - val_accuracy: 0.9685 - val_loss: 0.1023
+Epoch 5/50
+422/422 - 2s - 4ms/step - accuracy: 0.9724 - loss: 0.0895 - val_accuracy: 0.9723 - val_loss: 0.0957
+Epoch 6/50
+422/422 - 2s - 4ms/step - accuracy: 0.9756 - loss: 0.0779 - val_accuracy: 0.9737 - val_loss: 0.0912
+Epoch 7/50
+422/422 - 2s - 4ms/step - accuracy: 0.9784 - loss: 0.0672 - val_accuracy: 0.9737 - val_loss: 0.0886
+Epoch 8/50
+422/422 - 2s - 4ms/step - accuracy: 0.9785 - loss: 0.0637 - val_accuracy: 0.9765 - val_loss: 0.0841
+Epoch 9/50
+422/422 - 2s - 4ms/step - accuracy: 0.9819 - loss: 0.0560 - val_accuracy: 0.9755 - val_loss: 0.0857
+Epoch 10/50
+422/422 - 3s - 6ms/step - accuracy: 0.9834 - loss: 0.0514 - val_accuracy: 0.9753 - val_loss: 0.0872
+Epoch 11/50
+422/422 - 2s - 4ms/step - accuracy: 0.9849 - loss: 0.0466 - val_accuracy: 0.9757 - val_loss: 0.0837
+Epoch 12/50
+422/422 - 2s - 4ms/step - accuracy: 0.9858 - loss: 0.0429 - val_accuracy: 0.9770 - val_loss: 0.0822
+Epoch 13/50
+422/422 - 2s - 4ms/step - accuracy: 0.9873 - loss: 0.0388 - val_accuracy: 0.9752 - val_loss: 0.0840
+Epoch 14/50
+422/422 - 3s - 6ms/step - accuracy: 0.9865 - loss: 0.0394 - val_accuracy: 0.9758 - val_loss: 0.0903
+Epoch 15/50
+422/422 - 2s - 4ms/step - accuracy: 0.9881 - loss: 0.0357 - val_accuracy: 0.9765 - val_loss: 0.0858
+Epoch 16/50
+422/422 - 2s - 4ms/step - accuracy: 0.9879 - loss: 0.0346 - val_accuracy: 0.9777 - val_loss: 0.0845
+Epoch 17/50
+422/422 - 2s - 4ms/step - accuracy: 0.9898 - loss: 0.0309 - val_accuracy: 0.9770 - val_loss: 0.0880
+Epoch 17: early stopping
+Restoring model weights from the end of the best epoch: 12.
+
+Modelo guardado en: /home/claude/proyecto/models/mlp_mnist.keras
+Mejor época: 12 | val_loss=0.0822 | val_acc=0.9770 | tiempo=34.6s
+2026-10-30 06:58:54.740491: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+              precision    recall  f1-score   support
+
+           0     0.9798    0.9898    0.9848       980
+           1     0.9921    0.9912    0.9916      1135
+           2     0.9796    0.9748    0.9772      1032
+           3     0.9668    0.9802    0.9735      1010
+           4     0.9827    0.9827    0.9827       982
+           5     0.9863    0.9664    0.9762       892
+           6     0.9863    0.9791    0.9827       958
+           7     0.9739    0.9815    0.9777      1028
+           8     0.9654    0.9754    0.9704       974
+           9     0.9770    0.9663    0.9716      1009
+
+    accuracy                         0.9790     10000
+   macro avg     0.9790    0.9787    0.9788     10000
+weighted avg     0.9791    0.9790    0.9790     10000
+
+Pérdida en prueba: 0.0710 | Exactitud en prueba: 0.9790
+Figuras guardadas en: /home/claude/proyecto/results/figures

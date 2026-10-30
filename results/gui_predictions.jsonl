@@ -1,0 +1,14 @@
+{"status": "El lienzo est\u00e1 vac\u00edo. Dibuje un d\u00edgito antes de reconocer."}
+{"status": "Predicci\u00f3n: 0  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 0, "probs": [0.999992, 0.0, 3e-06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5e-06]}
+{"status": "Predicci\u00f3n: 1  (P = 0.832). Una probabilidad alta no garantiza que sea correcta.", "pred": 1, "probs": [0.0, 0.831978, 3.5e-05, 0.000472, 1.9e-05, 0.000257, 0.0, 0.123179, 0.000343, 0.043717]}
+{"status": "Predicci\u00f3n: 2  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 2, "probs": [0.0, 1e-06, 0.999925, 6.5e-05, 0.0, 0.0, 0.0, 1e-06, 9e-06, 0.0]}
+{"status": "Predicci\u00f3n: 3  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 3, "probs": [0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+{"status": "Predicci\u00f3n: 4  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 4, "probs": [0.0, 0.0, 2.3e-05, 0.0, 0.999822, 0.0, 0.0, 1e-05, 0.0, 0.000144]}
+{"status": "Predicci\u00f3n: 5  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 5, "probs": [0.0, 0.0, 0.0, 2e-06, 0.0, 0.999996, 0.0, 0.0, 0.0, 2e-06]}
+{"status": "Predicci\u00f3n: 6  (P = 0.991). Una probabilidad alta no garantiza que sea correcta.", "pred": 6, "probs": [1e-06, 0.0, 0.0, 0.0, 0.0, 0.008655, 0.991293, 0.0, 5e-05, 0.0]}
+{"status": "Predicci\u00f3n: 7  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 7, "probs": [0.0, 0.0, 0.0, 1e-06, 0.0, 0.0, 0.0, 0.999999, 0.0, 0.0]}
+{"status": "Predicci\u00f3n: 8  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 8, "probs": [1e-06, 0.0, 4e-06, 3.5e-05, 0.0, 0.0, 0.0, 0.0, 0.999956, 2e-06]}
+{"status": "Predicci\u00f3n: 9  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 9, "probs": [0.0, 0.0, 0.0, 0.0, 1e-06, 0.0, 0.0, 2.2e-05, 0.0, 0.999976]}
+{"status": "Predicci\u00f3n: 3  (P = 1.000). Una probabilidad alta no garantiza que sea correcta.", "pred": 3, "probs": [0.0, 0.0, 0.0, 0.999907, 0.0, 0.0, 0.0, 0.0, 9.3e-05, 0.0]}
+{"status": "Predicci\u00f3n: 7  (P = 0.901). Una probabilidad alta no garantiza que sea correcta.", "pred": 7, "probs": [0.003852, 9.6e-05, 0.000166, 2e-06, 0.092323, 0.0, 5.4e-05, 0.900543, 0.0, 0.002964]}
+{"status": "Predicci\u00f3n: 1  (P = 0.844). Una probabilidad alta no garantiza que sea correcta.", "pred": 1, "probs": [0.0, 0.844156, 0.001395, 0.007329, 0.143171, 2e-06, 2e-06, 0.000376, 0.003512, 5.5e-05]}

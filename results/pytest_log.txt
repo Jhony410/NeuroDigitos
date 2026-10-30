@@ -1,0 +1,9 @@
+tests/test_project.py::test_splits_are_stratified_and_normalized PASSED  [ 12%]
+tests/test_project.py::test_empty_canvas_is_detected PASSED              [ 25%]
+tests/test_project.py::test_preprocessing_shape_range_and_centering PASSED [ 37%]
+tests/test_project.py::test_light_background_is_inverted PASSED          [ 50%]
+tests/test_project.py::test_model_architecture PASSED                    [ 62%]
+tests/test_project.py::test_saved_model_loads_and_predicts_probabilities PASSED [ 75%]
+tests/test_project.py::test_gui_handles_missing_model PASSED             [ 87%]
+tests/test_project.py::test_gui_empty_canvas_draw_recognize_and_clear PASSED [100%]
+============================== 8 passed in 9.80s ===============================

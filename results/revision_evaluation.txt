@@ -1,0 +1,26 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793365028.054146   29156 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793365030.966248   29156 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1793365032.369131   29156 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+              precision    recall  f1-score   support
+
+           0     0.9798    0.9898    0.9848       980
+           1     0.9921    0.9912    0.9916      1135
+           2     0.9796    0.9748    0.9772      1032
+           3     0.9668    0.9802    0.9735      1010
+           4     0.9827    0.9827    0.9827       982
+           5     0.9863    0.9664    0.9762       892
+           6     0.9863    0.9791    0.9827       958
+           7     0.9739    0.9815    0.9777      1028
+           8     0.9654    0.9754    0.9704       974
+           9     0.9770    0.9663    0.9716      1009
+
+    accuracy                         0.9790     10000
+   macro avg     0.9790    0.9787    0.9788     10000
+weighted avg     0.9791    0.9790    0.9790     10000
+
+Pérdida en prueba: 0.0710 | Exactitud en prueba: 0.9790
+Figuras guardadas en: E:\Universidad 2026-II\Redes Neuronales\PA1_RedesNeuronales_AguilarAnccori\codigo_proyecto\results\figures

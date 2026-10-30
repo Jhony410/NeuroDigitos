@@ -1,0 +1,10 @@
+# Entorno original: Python 3.12 / TF 2.19.1. Windows actual: Python 3.13 / TF 2.21.
+tensorflow>=2.19,<2.20; python_version < '3.13'
+tensorflow==2.21.0; python_version >= '3.13'
+numpy>=1.26,<2.2; python_version < '3.13'
+numpy>=2.1,<2.4; python_version >= '3.13'
+matplotlib>=3.8,<4
+scikit-learn>=1.4,<2
+pillow>=10,<14
+pytest>=8,<10
+# Tkinter viene incluido con el instalador oficial de Python para Windows.
